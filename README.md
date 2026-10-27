@@ -4,7 +4,7 @@
 
 - **Testers asignados:** David, Belem y Brayan.
 - **Versión a revisar:** StudyFlow v2.0.0 (Versión 2 con correcciones de la primera fase de pruebas).
-- **Archivo ejecutable:** `StudyFlow-2.0.0.apk`
+- **Descarga del APK:** Abre la [Release v2.0.0](https://github.com/Jhoa-ml/StudyFlow-QA/releases/tag/StudyFlow-2.0.0) y descarga `StudyFlow-2.0.0.apk` en la sección de Assets.
 
 ---
 
@@ -13,22 +13,21 @@
 Con base en los hallazgos y la retroalimentación de la primera fase de pruebas, se reestructuró la aplicación para ser **100% autodidacta y de autogestión personal**. Ya no es necesario depender de un usuario administrador para la asignación de contenido.
 
 ### 1. Autogestión Total del Estudiante (Sin precargas)
-- **Mis Materias:** Cada usuario puede crear, consultar y eliminar sus propias materias desde la pantalla *Mis materias*. Las cuentas inician limpias para libre configuración.
+- **Mis Materias:** Cada usuario puede crear, consultar, editar y eliminar sus propias materias desde la pantalla *Mis materias*. Las cuentas inician limpias para libre configuración.
 - **Mis Tareas:** Se incorporó el botón flotante **`+ Nueva Tarea`** para que el estudiante agregue sus propios pendientes, asignándoles materia, fecha de entrega y prioridad (Alta, Media, Baja). Permite editar, eliminar y marcar entregas completadas.
 
 ### 2. Notificaciones Locales Automáticas
 - Integración de notificaciones push en la barra de estado del dispositivo al detectar tareas pendientes al iniciar la aplicación o consultar el Home.
 
-### 3. Seguridad y Ajustes de Perfil
+### 3. Seguridad, Perfil y Persistencia
 - **Validación de Cambio de Contraseña:** Reautenticación obligatoria solicitando la contraseña actual antes de actualizar a una nueva clave por seguridad.
-- **Frases Motivacionales:** Traducción y adaptación nativa al español para las frases inspiracionales de la pantalla principal.
-- **Notificaciones en Home:** Conexión interactiva del botón de campana en la barra superior.
+- **Soporte Offline:** Persistencia de datos local en Firestore para consultar materias y tareas sin conexión a internet.
 
 ---
 
 ## 📝 Nota importante para los Testers
 
-Al instalar el APK de esta versión 2 e iniciar sesión (o registrar una cuenta nueva):
+Al instalar el APK e iniciar sesión (o registrar una cuenta nueva):
 1. Tu cuenta iniciará desde cero (sin tareas ni materias precargadas).
 2. Dirígete primero a la sección **Materias** para dar de alta tus asignaturas.
 3. Posteriormente ve a **Tareas** y crea tus actividades para evaluar las notificaciones, filtros y seguimiento académico.
@@ -47,10 +46,10 @@ Para mantener un flujo ordenado de QA, los hallazgos pueden registrarse tanto en
 5. Asigna la etiqueta (*label*) correspondiente (`bug`, `enhancement` o `documentation`).
 
 ### Opción B: Tabla de Registro en Archivo Personal
-Cada tester puede ingresar a su carpeta personal y registrar los hallazgos en la tabla de su `README.md`:
+Cada tester escribe sus resultados en su propio README, en la rama `main`:
 
-- [Tabla de Registro - David](./David/README.md)
-- [Tabla de Registro - Belem](./Belem/README.md)
-- [Tabla de Registro - Brayan](./Brayan/README.md)
+- [Tabla de David](./David/README.md)
+- [Tabla de Belem](./Belem/README.md)
+- [Tabla de Brayan](./Brayan/README.md)
 
-*Nota: Solo edita tu archivo personal para evitar conflictos de sincronización.*
+*Nota: Solo edita tu archivo personal para evitar conflictos con los registros de los demás.*
