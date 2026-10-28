@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 Resumen de Cambios y Correcciones (Release v2.0.0)
+##  Resumen de Cambios y Correcciones (Release v2.0.0)
 
 Con base en los hallazgos y la retroalimentación de la primera fase de pruebas, se reestructuró la aplicación para ser **100% autodidacta y de autogestión personal**. Ya no es necesario depender de un usuario administrador para la asignación de contenido.
 
@@ -25,7 +25,7 @@ Con base en los hallazgos y la retroalimentación de la primera fase de pruebas,
 
 ---
 
-## 📝 Nota importante para los Testers
+## Nota importante para los Testers
 
 Al instalar el APK e iniciar sesión (o registrar una cuenta nueva):
 1. Tu cuenta iniciará desde cero (sin tareas ni materias precargadas).
@@ -34,7 +34,7 @@ Al instalar el APK e iniciar sesión (o registrar una cuenta nueva):
 
 ---
 
-## 🐛 Registro e Instrucciones para los Testers
+## Registro e Instrucciones para los Testers
 
 Para mantener un flujo ordenado de QA, los hallazgos pueden registrarse tanto en los archivos personales como mediante **GitHub Issues**:
 
